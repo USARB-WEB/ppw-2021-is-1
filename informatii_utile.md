@@ -1,4 +1,4 @@
-Informatie de contact:
+# Informatie de contact:
 + E-mail: chilatsergiu@gmail.com
 
 # Code editors:
