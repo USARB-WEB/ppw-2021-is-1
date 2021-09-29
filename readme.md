@@ -21,3 +21,7 @@
 + Adobe Illustrator
 + Corel Draw
 + Gimp
+
+
+# Tools
++ https://cssminifier.com/
