@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS. Selectors priority</h1>
+    <pre>
+        0 - inline style
+        1 - ID Selector
+        2 - Class Selector
+        3 - Tag Selector
+        * - Universal selector
+    </pre>
+
+    <hr>
+    <h2>First list</h2>
+    <ul class="firstList">
+        <li class="item">Item 1</li>
+        <li class="item">Item 2</li>
+        <li class="item" id="different" style="background-color: red;">Item 3</li>
+        <li class="item">Item 4</li>
+        <li class="item">Item 5</li>
+        <li>Item 6</li>
+        <li class="item">Item 7</li>
+        <li class="item">Item 8</li>
+        <li class="item">Item 9</li>
+        <li>Item 10</li>
+        <li>Item 11</li>
+        <li class="item">Item 12</li>
+    </ul>
+    <h2>Second list</h2>
+    <ul class="secondList">
+        <li class="item">Item 1</li>
+        <li class="item">Item 2</li>
+        <li class="item">Item 3</li>
+        <li class="item">Item 4</li>
+        <li>Item 5</li>
+        <li class="item">Item 6</li>
+        <li class="item">Item 7</li>
+        <li class="item">Item 8</li>
+        <li>Item 9</li>
+        <li class="item">Item 10</li>
+        <li class="item">Item 11</li>
+        <li class="item">Item 12</li>
+    </ul>
+    <h2>Third list</h2>
+    <ul class="thirdList">
+        <li class="item">Item 1</li>
+        <li>Item 2</li>
+        <li class="item">Item 3</li>
+        <li class="item">Item 4</li>
+        <li>Item 5</li>
+        <li class="item">Item 6</li>
+        <li class="item">Item 7</li>
+        <li class="item">Item 8</li>
+        <li class="item">Item 9</li>
+        <li class="item">Item 10</li>
+        <li class="item">Item 11</li>
+        <li class="item">Item 12</li>
+    </ul>
+</body>
+</html>

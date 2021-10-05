@@ -1,0 +1,24 @@
+ul{
+    border: 3px dashed violet;
+}
+
+ul.secondList{
+    border: 6px dotted cyan;
+}
+
+li{
+    background-color: darkgoldenrod;
+    margin-top: 3px;
+}
+
+li.item{
+    background-color: darkolivegreen;
+}
+
+li#different{
+    background-color: darkslateblue;
+}
+
+*{
+    background-color: lightblue;
+}
