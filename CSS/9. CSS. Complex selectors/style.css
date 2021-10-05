@@ -1,44 +1,24 @@
-.square-blue{
+.square{
     border: 1px solid gray;
     width: 100px;
     height: 100px;
-    background-color: blue;
 }
 
-.square-yellow{
-    border: 1px solid gray;
+.circle{
+    border: 1px dotted gray;
     width: 100px;
     height: 100px;
+    border-radius: 50%;
+}
+
+.blue{
+    background-color: rgb(81, 81, 182);
+}
+
+.yellow{
     background-color: yellow;
 }
 
-.square-red{
-    border: 1px solid gray;
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
-
-.circle-blue{
-    border: 1px dotted gray;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: blue;
-}
-
-.circle-yellow{
-    border: 1px dotted gray;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: yellow;
-}
-
-.circle-red{
-    border: 1px dotted gray;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.red{
     background-color: red;
 }
