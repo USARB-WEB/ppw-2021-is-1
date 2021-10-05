@@ -1,0 +1,44 @@
+.square-blue{
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.square-yellow{
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.square-red{
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.circle-blue{
+    border: 1px dotted gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.circle-yellow{
+    border: 1px dotted gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.circle-red{
+    border: 1px dotted gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
