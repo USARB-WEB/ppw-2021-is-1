@@ -1,0 +1,102 @@
+.grid-element{
+    border: 1px solid red;
+    background-color: thistle;
+}
+
+.grid-container-gtc{
+    display: grid;
+    grid-template-columns: 100px 300px 100px;
+
+}
+
+.grid-container-gtr{
+    display: grid;
+    grid-template-rows: 100px 300px 100px;
+
+}
+
+.grid-container-gtrc{
+    display: grid;
+    grid-template-rows: 100px 300px 100px;
+    grid-template-columns: 100px 300px 100px;
+}
+
+.grid-container-fractions{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;  
+}
+
+.grid-container-fractions-px{
+    display: grid;
+    grid-template-columns: 1fr 800px 3fr;  
+}
+
+.grid-container-repeat{
+    display: grid;
+    /*grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;*/
+    grid-template-columns: 2fr repeat(4, 1fr) 2fr;
+}
+
+.grid-container-gap{
+    display: grid;
+    grid-template-rows: 100px 300px 100px;
+    grid-template-columns: 100px 300px 100px;
+    /*
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+    */
+    /*
+    grid-gap: 20px 50px;
+    */
+    gap:20px 50px;
+}
+
+
+/***********/
+
+.page-container{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "a-left section a-right"
+    ". section ."
+    "footer footer footer"
+    ;
+    grid-template-rows: 100px 30px 150px auto 100px;
+    grid-template-columns: 200px auto 200px;
+}
+
+header{
+    background-color: thistle;
+    grid-area: header;
+}
+
+nav{
+    background-color: rgb(103, 228, 54);
+    grid-area: nav;
+}
+
+aside#a-left{
+    background-color: yellow;
+    grid-area: a-left;
+    /*height: 300px;*/
+}
+
+aside#a-right{
+    background-color: blue;
+    grid-area: a-right;
+    /*height: 300px;*/
+}
+
+section{
+    background-color: grey;
+    grid-area: section;
+    /*min-height: 500px;*/
+}
+
+footer{
+    background-color: black;
+    color: white;
+    grid-area: footer;
+}
