@@ -35,3 +35,7 @@ https://www.w3schools.com/cssref/pr_class_display.asp
 + Emet abbreviarions
   + https://code.visualstudio.com/docs/editor/emmet
   + https://docs.emmet.io/abbreviations/#:~:text=Abbreviations%20are%20the%20heart%20of,knows%20how%20to%20use%20it.
+
+
+# Designs
++ https://www.figma.com/file/N6pJfdausO5qWrCrNlCjTG/Woodies?node-id=5%3A3
