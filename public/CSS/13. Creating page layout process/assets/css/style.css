@@ -102,3 +102,25 @@ section#about header h2{
 div.line{
     border-bottom: 1px solid black;
 }
+
+
+.rounded-rect{
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    width: 280px;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+}
+
+.rect-yellow{
+    background-color: #F7DEA6;
+}
+
+.rect-blue{
+    background-color: #A8DCEC;
+}
+
+.rect-pink{
+    background-color: #F9BDBD;
+}
