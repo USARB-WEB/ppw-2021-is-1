@@ -1,0 +1,126 @@
+body{
+    width: 1070px;
+    margin: 0 auto;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 20px;
+    margin-bottom: 130px;
+}
+
+header figure{
+    display: grid;
+    grid-template-columns: 30px auto;
+    align-items: center;
+    margin: 0;
+}
+
+header figure figcaption{
+    font-family: Nunito;
+    margin-left: 10px;
+    font-size: 24px;
+    color: #3E3F43;
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    align-items: center;
+}
+
+header nav a{
+    font-family: Nunito;
+    font-size: 16px;
+    color: #222222;
+    text-decoration: none;
+}
+
+header nav a.active{
+    color: #DAA520;
+}
+
+header nav a.button{
+    border: 1px solid #3E3F43;
+    border-radius: 8px;
+    width: 137px;
+    height: 40px;
+    display: grid;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+section#main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+section#main div p{
+    font-family: Nunito;
+    font-size: 35px;
+    color: #3E3F43;
+}
+
+section#main div h1{
+    font-family: Nunito;
+    font-size: 72px;
+    color: #313235;
+}
+
+section#main div a.button{
+    border: none;
+    background-color: #DAA520;
+    border-radius: 4px;
+    width: 175px;
+    height: 50px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: Nunito;
+}
+
+section#about header{
+    display: grid;
+    grid-template-columns: 150px auto 380px;
+    align-items: center;
+    gap: 10px;
+}
+
+
+section#about header h2{
+    font-family: Nunito;
+    font-size: 72px;
+    color: rgba(34, 34, 34, 0.1);
+    text-transform: uppercase;
+    margin: 0;
+}
+
+div.line{
+    border-bottom: 1px solid black;
+}
+
+
+.rounded-rect{
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    width: 280px;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+}
+
+.rect-yellow{
+    background-color: #F7DEA6;
+}
+
+.rect-blue{
+    background-color: #A8DCEC;
+}
+
+.rect-pink{
+    background-color: #F9BDBD;
+}
