@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        {{ message }}
+        <hr>
+        <input type="number" v-model="x" placeholder="X">
+        <input type="number" v-model="y" placeholder="Y">
+        {{ sum }}
+        <hr>
+        Reversed name:
+        <input type="text" v-model="name" placeholder="Enter your name here">
+        Reversed name {{ reversedName }}
+
+        <hr>
+        <ul>
+            <li v-for="(student, id) in students">
+                {{ student.name }}: {{ student.age }} years <button @click="deleteStudent(id)">x</button>
+            </li>
+        </ul>
+
+        <input type="text" v-model="studentName" placeholder="Enter student name">
+        <input type="number" v-model="studentAge" placeholder="Age">
+        <button @click="addStudent()">Add student</button>
+
+        <hr>
+
+        Enter your average mark <input type="number" v-model="averageMark">
+
+        <div v-if="averageMark >= 9">Geat! You are the best</div>
+        <div v-else>Ok. Can be better</div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
