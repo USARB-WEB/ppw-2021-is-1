@@ -44,3 +44,12 @@ https://www.w3schools.com/cssref/pr_class_display.asp
 
 # Designs
 + https://www.figma.com/file/N6pJfdausO5qWrCrNlCjTG/Woodies?node-id=5%3A3
+
+
+# Self learning
++ JavaScript language https://javascript.info/
++ JS frameworks
+  + jQuery https://jquery.com/
+  + React https://reactjs.org/
+  + Angular https://angularjs.org/
+  + Vue https://vuejs.org/
